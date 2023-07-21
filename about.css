@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.aboutSection{
+    height: 100%;
+    width: 100vw;
+    background-color: rgb(58, 58, 75);
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+   
+}
+.aboutMe{
+    padding-top: 100px;
+    background-color: rgb(58, 58, 75);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.aboutInfo{
+    width: 50vw;
+}
+.aboutInfo h1{
+    font-size: 5rem;
+    margin-bottom: 20px;
+    font-family: 'Lilita One', cursive;
+    color: rgb(167, 167, 167);
+}
+.aboutInfo h3{
+    font-size: 2rem;
+    width: 80%;
+}
+.aboutInfo p{
+    font-size: 20px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.aboutImg img{
+    height: 500px;
+}
+
+.mySkills{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.mySkills h2{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Lilita One', cursive;
+}
+
+.mainNav{
+    height: 50px;
+    /* border: 2px solid red; */
+    padding: 10px;
+    background-color: rgb(58, 58, 75);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-bottom-left-radius: 40px;
+}
+.navItems{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    list-style: none;
+}
+
+.navListItems{
+    margin: 0 20px;
+}
+.navListItems a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.navListItems a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.mySkills{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 20px;
+}
+.skillList{
+    color: rgb(160, 158, 158);
+    list-style-type:square;
+    margin: 9px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.skillList1{
+    color: rgb(207, 205, 205);
+    list-style-type:none;
+    margin: 15px 0;
+    font-size: 21px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.skillList1 a{
+    color: rgb(207, 205, 205);
+    list-style-type:none;
+}
+.skillList:hover{
+    color: rgb(255, 255, 255);
+}
+.logo img{
+    width: 350px;
+}

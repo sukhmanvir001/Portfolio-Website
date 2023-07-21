@@ -1,0 +1,31 @@
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(131, 138, 141);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-size: 1.2rem;
+    padding: 5px 0;
+
+}
+
+.footerNav a{
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.footerNav a:hover{
+    text-decoration: underline 2px;
+}
+.footerInfo{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.footerInfo p{
+    margin: 5px 0;
+}
