@@ -1,0 +1,37 @@
+@media screen and (max-width: 990px) {
+    .contSection .logo{
+        display: none;
+    }
+  }
+@media screen and (max-width: 730px) {
+    .contactInfo h2{
+        font-size: 3rem;
+        color: gray;
+        /* margin-left: 35px; */
+    }
+
+    .contactInfo p{
+        width: 100%;
+    
+    }
+  }
+@media screen and (max-width: 745px) {
+    footer{
+        flex-direction: column;
+        height: 20vh;
+    }
+    .logo{
+        display: none;
+    }
+    .aboutMe{
+        flex-direction: column-reverse;
+    }
+
+    .aboutMe img{
+        height: 60vw;
+    }
+
+    .aboutInfo{
+        width: 90vw;
+    }
+  }
