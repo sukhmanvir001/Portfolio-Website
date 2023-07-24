@@ -112,7 +112,9 @@
     transform: translateX(100%);
 }
 
-  
+.projectBtn:hover{
+    cursor:pointer;
+}
 
 .show{
     opacity: 1;
